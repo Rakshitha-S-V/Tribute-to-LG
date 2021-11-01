@@ -1,0 +1,188 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/***********CSS for Landing_page.html***********/
+
+/***********background***********/
+.header{
+    min-height: 120vh;
+    width: 100%;
+    background-image:linear-gradient(rgba(4,9,30,0.4),rgba(4,9,30,0.4)), url(img/bkg1.jpg) ;/*background image for home page*/
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+/***********Navigation Bar***********/
+nav{
+    display: flex;
+    padding: 2% 6%;
+    justify-content: space-between;
+    align-items:center;
+}
+/**********Logo in navigation bar**********/
+nav img{
+    height: 80px;
+    width:160px;
+}
+.nav-links{
+    flex: 1;
+    text-align: right;
+}
+.nav-links ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+}
+.nav-links ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.nav-links ul li::after{
+    content: '';
+    width:00% ;
+    height: 2px;
+    background:#f44336;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+}
+
+/***********Hover effect For Navigation***********/
+
+.nav-links ul li:hover::after{
+    width: 100%;
+}
+
+/***********End of navigation***********/
+
+/***********Text Box***********/
+
+.text-box{
+    width: 90%;
+    color :rgb(255, 255, 255);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+.text-box h1{
+    font-size: 62px;
+}
+.text-box p{
+    margin: 10px 0 40px;
+    font-size: 20px;
+}
+/**********Botton**********/
+.here-btn{
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    border: 1px solid white;
+    padding: 12px 34px;
+    font-size: 13px;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+}
+/***********Hover Effect For Button**********/
+.here-btn:hover{
+    border: 1px solid #f44336;
+    background: #f44336;
+    transition: 1s;
+
+}
+/***********End of text box***********/
+
+/***********End of CSS for Landing_page.html***********/
+
+/***********CSS for about.html***********/
+
+/***********background***********/
+
+/***********Text***********/
+.nav-links1{
+    flex: 1;
+    text-align: right;
+}
+.nav-links1 ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+}
+.nav-links1 ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.nav-links1 ul li::after{
+    content: '';
+    width:00% ;
+    height: 2px;
+    background:#f44336;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+}
+/************Hover effect For Navigation************/
+.nav-links1 ul li:hover::after{
+    width: 100%;
+}
+.nav-links1 ul li a{
+    color: maroon;
+    text-decoration: none;
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+}
+body{
+    background-color: #f4f8fc;
+}
+.im2{
+    position: center;
+    height:100vh;
+    width:100%;
+}
+.about{
+
+    width: 90%;
+    color :rgb(0, 0, 0);
+    position: absolute;
+    
+    left: 50%;
+    transform: translate(-50%);
+    text-align: center;
+    
+}
+.about h1{
+    font-size: 70px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    display: block;
+}
+.about h2{
+    font-size: 30px;
+}
+.about p1{
+    margin: 10px 0 40px;
+    font-size: 20px;
+    font-family: sitka small,serif;
+}
+
+/************image used next to about************/
+.about .im1{
+    padding-top: 10px;
+    height: 500px;
+    width: 400px;
+    float: left;
+    padding-bottom: 15px;
+    
+}
+/************end of CSS for about.html************/
+

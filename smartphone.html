@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>LG</title>
+</head>
+<body>
+
+        <section class="keen">
+    <nav>
+         <!-------Logo------->
+        <a href="Landing_page.html"><img src="Images/8.png"></a>
+        <div class="nav-links">
+            <!--navigation-->
+
+            <ul>
+                <li><a href="Landing_page.html">HOME</a></li>
+                <li><a href="about.html">ABOUT</a></li>
+                <li><a href="history.html">HISTORY</a></li>
+                <li><a href="innovations.html">INNOVATIONS</a></li>
+                <li><a href="smartphone.html">SMARTPHONES</a></li>
+            </ul>
+        </div>
+    </nav>
+      </section>
+      <section class="reason">
+
+    <h4 class="h1"> LG stops manufacturing phones, <br> plant is transitioning to making home appliances </h4>
+    <p>
+        <div class="p1">
+        <br><br>
+        LG officially confirmed its exit from the mobile business in early April, but it needed some time to wind down operations. 
+        The company will continue to support existing devices for some time to come. <br><br>
+        Premium models will get three years of software support, you can check out the Android 11 update timeline for more details. 
+        Some models (including Q-series phones) will get Android 12, the latest premium models are expected to go up to Android 13. 
+        Users will be able to receive after-sale services for 4 years from the date of manufacture of the device.<br><br>
+        </div>
+    </p>
+        <br>
+<!--------slideShow---------->        
+<div class="slides">
+        <div class="slideshow-container">
+            <div class="mySlides fade">
+                <div class="numbertext"></div>
+                <img src="Images/31.jpg" height="500px" width="1000px">
+            </div>
+            <div class="mySlides fade">
+                <div class="numbertext"></div>
+                <img src="Images/32.jpg" height="500px" width="1000px">
+            </div>
+            <div class="mySlides fade">
+                <div class="numbertext"></div>
+                <img src="Images/37.jpg" height="500px" width="1000px">
+            </div>
+            <div class="mySlides fade">
+                <div class="numbertext"></div>
+                <img src="Images/34.jpeg" height="500px" width="1000px">
+            </div>
+            
+        <!-- The dots/circles -->
+            <div style="text-align:center">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+            <span class="dot" onclick="currentSlide(4)"></span>
+  </div>
+  </div>
+
+    <script>
+        var slideIndex = 0;
+        showSlides();
+        function showSlides() {
+            var i;
+            var slides = document.getElementsByClassName("mySlides");
+            var dots = document.getElementsByClassName("dot");
+            for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";
+            }
+            slideIndex++;
+            if (slideIndex > slides.length) {
+                slideIndex = 1
+            }
+            for (i = 0; i < dots.length; i++) {
+                dots[i].className = dots[i].className.replace(" active", "");
+            }
+            slides[slideIndex - 1].style.display = "block";
+            dots[slideIndex - 1].className += " active";
+            setTimeout(showSlides, 2000); // Change image every 2 seconds
+        }
+    </script>
+
+        <br>
+               
+    <p>
+        <div class="p2">
+        
+        The reason why LG decides to quit is they faced Loss over several billion dollars in Mobile department. The are many reasons for loss <br><br>
+        1. Pricing( they are not pricing competitively)<br><br>
+        2. Innovation ( am not saying they are bad at innovation , they are
+        actually super excellent but they are innovating something for
+        each and every mobile and not considering the innovation of
+        previous Mobile, so developers also can't work well for that
+        single Mobile)<br><br>
+        3. Updates ( updates are usually slow from there track records) <br><br>
+        4. Naming ( There is a big confusion in naming smartphone nowadays
+        and LG is first of all , they will just name their smartphone with
+        unusual order and very rare name which people can easily forget).<br><br><br><br>
+        
+        </div>
+    </p>
+
+    <h4 class="h2"> LG WING </h4>
+
+    <q class="quote">The New Swivel
+    Swivel It How You Like It
+    The most transformative smartphone experience ever.
+    Swivel from a sleek mobile to a brand new form that redefines multi-viewing and multitasking. 
+    See apps both horizontally and vertically for a new level of
+     intuitiveness never reached by any other phone before.</q>
+    <br><br><br>
+    
+   
+    <div>
+    
+    <iframe id="i2" 
+    src="Images/wing.mp4">
+    </iframe>
+    </div>
+    <br><br>
+
+    <p>
+        <div class="p3">
+        <ul>
+            <li>Price:Rs.80000</li>
+           <li>Versatile Multi-Screen Form Factor with Swivel Mode</li>
+           <li>17.3cm (6.8) FHD+ OLED Main Display & 9.9cm (3.9) OLED Secondary Display</li>
+           <li>64MP, 13MP Ultra-Wide & 12MP Ultra-Wide Angle Rear Cameras</li>
+           <li>32MP Pop-up Selfie Camera</li>
+           <li>LG 3D Sound Engine</li>
+           <li>IP54 and MIL-STD 810G Certified</li>
+           <br>
+        </ul>
+        </div>
+   </p>
+   
+</section>
+</body>
+</html>
